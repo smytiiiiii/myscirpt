@@ -1,0 +1,14 @@
+# Binaires FXServer (téléchargés par install.sh / install.ps1)
+artifacts/
+*.tar.xz
+*.7z
+
+# Données générées par le serveur
+cache/
+txData/
+logs/
+.console-history
+.id
+
+# Secrets
+secrets.cfg
